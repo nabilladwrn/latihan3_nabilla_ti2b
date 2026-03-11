@@ -1,0 +1,150 @@
+<html>
+<head>
+<title> Tugas Gambar dan Link </title>
+<style>
+.btn-group {
+margin: 20px 0;
+text-align: center;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 18px;
+text-decoration: none;
+color: white;
+border-radius: 4px; 
+font-size: 14px;
+font-family: Arial, sans-serif;
+margin: 5px;
+}
+
+.btn-blank { background-color: #ff69b4; } 
+.btn-self { background-color: #f48fb1; }  
+.btn-parent { background-color: #ad1457; } 
+
+// Saat disentuh
+.btn-blank:hover { background-color: #ff1493; }
+.btn-self:hover { background-color: #f06292; }
+.btn-parent:hover { background-color: #880e4f; }
+</style>
+</head>
+<body>
+<h2 align="center">TUGAS IMAGES & LINK</h2>
+<p><b>Nama	:</b> Nabilla Dwi Wardani</p>
+<p><b>Kelas	:</b> TI-2B</p>
+<p><b>NIM	:</b> 2507411050</p>
+<hr>
+
+<h3 align="center"><b>Layout Foto dengan Tabel (Tanpa Border)</b></h3>
+<center>
+<table style="Border: none; align: center;">
+<tr>
+<td style="Border: none; text-align: center;">
+<img src="images/Violet_Evergarden.jpg" alt="Violet Evergarden" style="width:400px;height:200px;">
+</td>
+<tr>
+<tr>
+<td style="Border: none; text-align: center; padding: 10px;">
+Violet Evergarden adalah anime drama fantasi emosional yang mengisahkan perjalanan Violet, mantan prajurit anak yang hanya tahu perang, 
+mencari makna kata "Aku mencintaimu" yang diucapkan Mayor Gilbert sebelum hilang. Bekerja sebagai "Auto Memory Doll" (penulis surat), 
+ia belajar memahami emosi manusia melalui kisah kliennya.
+</td>
+</tr>
+<tr>
+<td style="Border: none; text-align: center;">
+<small><i>Note: Teks ini adalah deskripsi tulisan yang berada tepat di bawah gambar yang menggunakan struktur tabel.</i><small>
+</td>
+</tr>
+</table>
+</center>
+<hr>
+
+<h3 align="center"><b>Interactive Image Map</b></h3>
+<center>
+<img src="images/Computer.jpeg" alt="Desk with Computer" usemap="#computermap">
+<map name="computermap">
+<area shape="rect" coords="86,55,183,121" href="https://www.pnj.ac.id" alt="PNJ" target="_blank">
+<area shape="circle" coords="257,107,27" href="https://www.w3schools.com" alt="W3Schools" target="_blank">
+</map>
+<p><small><i>Klik Monitor untuk ke PNJ, Klik Speaker di sebelah kanan untuk ke W3Schools</i></small></p>
+</center>
+<hr>
+
+<h3 align="center"><b>Navigasi Link (Target Attribute)</b></h3>
+<center>
+<div class="btn-group">
+<a href="https://www.wikipedia.org" target="_blank" class="btn btn-blank">Wikipedia (Blank)</a>
+<a href="https://www.detik.com" target="_self" class="btn btn-self">Detik (Self)</a>
+<a href="https://www.kompas.com" target="_parent" class="btn btn-parent">Kompas (Parent)</a>
+</div>
+</center>
+<hr>
+
+<h3 align="center"><b>Hyperlink (Bookmark)</b></h3>
+<h2>Daftar Chapter</h2>
+
+<a href="#c1">Chapter 1</a><br>
+<a href="#c2">Chapter 2</a><br>
+<a href="#c3">Chapter 3</a><br>
+<a href="#c4">Chapter 4</a><br>
+<a href="#c5">Chapter 5</a><br>
+<a href="#c6">Chapter 6</a><br>
+<a href="#c7">Chapter 7</a><br>
+<a href="#c8">Chapter 8</a><br>
+<a href="#c9">Chapter 9</a><br>
+<a href="#c10">Chapter 10</a><br>
+<a href="#c11">Chapter 11</a><br>
+<a href="#c12">Chapter 12</a><br>
+<a href="#c13">Chapter 13</a><br>
+<a href="#c14">Chapter 14</a><br>
+<a href="#c15">Chapter 15</a><br>
+
+<hr>
+
+<h2 id="c1">Chapter 1 - Pengenalan Dunia Teknologi</h2>
+<p>Teknologi informasi berkembang sangat pesat dan mempengaruhi hampir seluruh aspek kehidupan manusia. Mulai dari komunikasi, pendidikan, hingga dunia kerja kini banyak memanfaatkan teknologi digital.</p>
+
+<h2 id="c2">Chapter 2 - Sejarah Perkembangan Komputer</h2>
+<p>Komputer telah mengalami perkembangan dari generasi pertama hingga generasi modern. Awalnya komputer berukuran sangat besar dan hanya digunakan untuk perhitungan sederhana.</p>
+
+<h2 id="c3">Chapter 3 - Komponen Sistem Komputer</h2>
+<p>Sistem komputer terdiri dari perangkat keras, perangkat lunak, dan brainware. Ketiga komponen ini saling bekerja sama agar komputer dapat berfungsi dengan baik.</p>
+
+<h2 id="c4">Chapter 4 - Perangkat Lunak</h2>
+<p>Perangkat lunak adalah program yang digunakan untuk menjalankan berbagai fungsi pada komputer. Contohnya adalah sistem operasi dan aplikasi.</p>
+
+<h2 id="c5">Chapter 5 - Dasar Pemrograman</h2>
+<p>Pemrograman merupakan proses membuat instruksi agar komputer dapat melakukan tugas tertentu. Bahasa pemrograman digunakan oleh programmer untuk menulis kode program.</p>
+
+<h2 id="c6">Chapter 6 - Struktur Data</h2>
+<p>Struktur data dan algoritma merupakan dasar penting dalam pengembangan perangkat lunak. Dengan struktur data yang baik dan algoritma yang efisien, program dapat berjalan lebih cepat dan lebih optimal.</p>
+
+<h2 id="c7">Chapter 7 - Jaringan Komputer</h2>
+<p>Jaringan komputer memungkinkan berbagai perangkat untuk saling terhubung dan berbagi informasi. Teknologi jaringan telah mempermudah komunikasi, baik dalam lingkungan kecil seperti kantor maupun secara global melalui internet.</p>
+
+<h2 id="c8">Chapter 8 - Keamanan Informasi</h2>
+<p>Seiring berkembangnya teknologi, keamanan informasi menjadi hal yang sangat penting. Berbagai metode keamanan seperti enkripsi dan sistem proteksi digunakan untuk melindungi data dari ancaman digital.</p>
+
+<h2 id="c9">Chapter 9 - Teknologi Informasi Modern</h2>
+<p>Teknologi informasi terus berkembang dengan munculnya berbagai inovasi baru. Contohnya adalah internet berkecepatan tinggi, perangkat mobile, dan berbagai aplikasi digital yang memudahkan kehidupan manusia.</p>
+
+<h2 id="c10">Chapter 10 - Teknologi dalam Kehidupan</h2>
+<p>Saat ini teknologi sudah menjadi bagian dari kehidupan sehari-hari. Mulai dari komunikasi, pendidikan, hingga transaksi keuangan dapat dilakukan dengan bantuan teknologi digital.</p>
+
+<h2 id="c11">Chapter 11 - Artificial Intelligence</h2>
+<p>Artificial Intelligence atau kecerdasan buatan merupakan teknologi yang memungkinkan komputer meniru kemampuan berpikir manusia. Teknologi ini mulai banyak digunakan dalam berbagai bidang seperti kesehatan, pendidikan, dan industri.</p>
+
+<h2 id="c12">Chapter 12 - Big Data</h2>
+<p>Big Data adalah kumpulan data dalam jumlah sangat besar yang dapat dianalisis untuk mendapatkan informasi penting. Teknologi ini membantu perusahaan dan organisasi dalam mengambil keputusan yang lebih tepat.</p>
+
+<h2 id="c13">Chapter 13 - Cloud Computing</h2>
+<p>Cloud computing memungkinkan penyimpanan data dan penggunaan aplikasi melalui internet tanpa harus menggunakan perangkat lokal. Teknologi ini memberikan fleksibilitas dan efisiensi dalam pengelolaan data.</p>
+
+<h2 id="c14">Chapter 14 - Tantangan Teknologi</h2>
+<p>Walaupun teknologi memberikan banyak manfaat, perkembangan teknologi juga menghadirkan berbagai tantangan seperti keamanan data, privasi, dan ketergantungan terhadap teknologi digital.</p>
+
+<h2 id="c15">Chapter 15 - Masa Depan Teknologi</h2>
+<p>Masa depan teknologi diprediksi akan semakin maju dengan berbagai inovasi baru. Perkembangan seperti kecerdasan buatan, robotika, dan teknologi digital lainnya diharapkan dapat memberikan solusi bagi berbagai permasalahan di dunia.</p>
+
+</body>
+</html>
